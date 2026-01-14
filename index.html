@@ -3,17 +3,69 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
     <title>Macarons Recipe</title>
   </head>
 
   <body>
-    <header>
-      <img src="./img/banner.jpg" alt="macaron" />
-      <h1>Macarons</h1>
+    <header class="header">
+      <div class="logo">Macarons</div>
+      <nav class="navigation">
+        <ul class="navigation__list">
+          <li class="navigation__item">Contacts</li>
+          <li class="navigation__item">More Recipes</li>
+          <li class="navigation__item">Blog</li>
+        </ul>
+      </nav>
     </header>
-    <main>
-      <section class="ingredients">
-        <h2>INGREDIENTS</h2>
+
+    <main class="main">
+      <section class="hero">
+        <img src="./img/banner.jpg" alt="macaron" class="hero__imgage" />
+        <h1 class="title title--l hero__title">Macarons</h1>
+      </section>
+
+      <section class="ingrid">
+        <h2 class="title title--m ingrid__title">Ingredients</h2>
+        <div class="intrig__table table">
+          <div class="table__title">Ingredients</div>
+          <div>
+            <div class="table__subtitle">For white chocolate ganache:</div>
+            <div class="table__item">White chocolate</div>
+            <div class="table__item">100g</div>
+          </div>
+          <div>
+            <div class="table__subtitle">For macarons:</div>
+            <div>
+              <div class="table__item">Almond flour</div>
+              <div class="table__item">110g</div>
+            </div>
+            <div>
+              <div class="table__item">Cacao powder</div>
+              <div class="table__item">25g</div>
+            </div>
+            <div>
+              <div class="table__item">Egg whites</div>
+              <div class="table__item">120g</div>
+            </div>
+            <div>
+              <div class="table__item">Fine granulated sugar</div>
+              <div class="table__item">50g</div>
+            </div>
+          </div>
+
+          <div>
+            <div class="table__subtitle">For dark chocolate ganache:</div>
+            <div>
+              <div>Dark chocolate</div>
+              <div>80g</div>
+            </div>
+            <div>
+              <div>Cream 38%</div>
+              <div>50ml</div>
+            </div>
+          </div>
+        </div>
 
         <table border="1" cellpadding="5px">
           <tbody>
