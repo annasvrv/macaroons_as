@@ -1,0 +1,18 @@
+.hero {
+  position: relative;
+  display: grid;
+}
+
+.hero__image {
+  grid-area: 1 / 1 / -1 / -1;
+  object-fit: fill;
+}
+
+.hero__title {
+  grid-area: 1 / 1 / -1 / -1;
+  margin: auto;
+  font-weight: 900;
+  font-size: 92px;
+  text-transform: uppercase;
+  color: #fff;
+}
