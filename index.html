@@ -9,60 +9,63 @@
 
   <body>
     <header class="header">
-      <div class="logo">Macarons</div>
-      <nav class="navigation">
+      <nav class="navigation container">
+        <div class="logo">Macarons</div>
         <ul class="navigation__list">
           <li class="navigation__item">Contacts</li>
-          <li class="navigation__item">More Recipes</li>
+          <li class="navigation__item">More recipes</li>
           <li class="navigation__item">Blog</li>
         </ul>
       </nav>
     </header>
 
-    <main class="main">
+    <main class="main container">
       <section class="hero">
-        <img src="./img/banner.jpg" alt="macaron" class="hero__imgage" />
+        <img
+          src="./img/banner.jpg"
+          alt="macaron"
+          class="hero__image"
+          width="1280"
+          height="316"
+        />
         <h1 class="title title--l hero__title">Macarons</h1>
       </section>
 
       <section class="ingrid">
         <h2 class="title title--m ingrid__title">Ingredients</h2>
-        <div class="intrig__table table">
-          <div class="table__title">Ingredients</div>
-          <div>
-            <div class="table__subtitle">For white chocolate ganache:</div>
-            <div class="table__item">White chocolate</div>
-            <div class="table__item">100g</div>
-          </div>
-          <div>
-            <div class="table__subtitle">For macarons:</div>
-            <div>
-              <div class="table__item">Almond flour</div>
-              <div class="table__item">110g</div>
-            </div>
-            <div>
-              <div class="table__item">Cacao powder</div>
-              <div class="table__item">25g</div>
-            </div>
-            <div>
-              <div class="table__item">Egg whites</div>
-              <div class="table__item">120g</div>
-            </div>
-            <div>
-              <div class="table__item">Fine granulated sugar</div>
-              <div class="table__item">50g</div>
-            </div>
-          </div>
 
-          <div>
-            <div class="table__subtitle">For dark chocolate ganache:</div>
-            <div>
-              <div class="table__item">Dark chocolate</div>
-              <div class="table__item">80g</div>
+        <div class="intrig__table">
+          <div class="table">
+            <div class="table__title">Ingredients</div>
+            <div class="table__wrapper">
+              <div class="table__subtitle">For white chocolate ganache:</div>
+
+              <div class="table__item">White chocolate</div>
+              <div class="table__item-value">100g</div>
             </div>
-            <div>
+            <div class="table__wrapper">
+              <div class="table__subtitle">For macarons:</div>
+
+              <div class="table__item">Almond flour</div>
+              <div class="table__item-value">110g</div>
+
+              <div class="table__item">Cacao powder</div>
+              <div class="table__item-value">25g</div>
+
+              <div class="table__item">Egg whites</div>
+              <div class="table__item-value">120g</div>
+
+              <div class="table__item">Fine granulated sugar</div>
+              <div class="table__item-value">50g</div>
+            </div>
+            <div class="table__wrapper">
+              <div class="table__subtitle">For dark chocolate ganache:</div>
+
+              <div class="table__item">Dark chocolate</div>
+              <div class="table__item-value">80g</div>
+
               <div class="table__item">Cream 38%</div>
-              <div class="table__item">50ml</div>
+              <div class="table__item-value">50ml</div>
             </div>
           </div>
         </div>
